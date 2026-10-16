@@ -1,7 +1,25 @@
 ﻿1. Bootstrap adalah kerangka kerja (framework) front-end gratis dan open-source yang digunakan untuk mempermudah dan mempercepat pembuatan tampilan situs web serta aplikasi web.  didesain oleh Mark Otto dan Jacob Thornton agar website bisa tampil dan berfungsi dengan baik jika diakses melalui seluler (mobile-first website), serta mudah dan responsif saat digunakan. 
-2. 1. Menggunakan CDN (Content Delivery Network) Bootstrap dihubungkan langsung melalui URL dari server Bootstrap tanpa perlu mengunduh file secara manual. Kita cukup menambahkan link CSS pada bagian <head> dan script JavaScript sebelum tag penutup </body>.
+2. Menggunakan CDN (Content Delivery Network) Bootstrap dihubungkan langsung melalui URL dari server Bootstrap tanpa perlu mengunduh file secara manual. Kita cukup menambahkan link CSS pada bagian <head> dan script JavaScript sebelum tag penutup </body>.
 2. Mengunduh file Bootstrap Mengunduh file Bootstrap dari website resminya, kemudian menyimpan dan menghubungkan file CSS serta JavaScript ke dalam project.
 3. Menggunakan npm (Node Package Manager) Memasang Bootstrap melalui terminal dengan perintah npm install bootstrap. Cara ini biasanya digunakan pada project yang menggunakan Node.js.
 4. Menggunakan package manager lainnya Bootstrap dapat dipasang menggunakan package manager seperti Yarn dengan perintah yarn add bootstrap.
 5. Menggunakan framework atau template project Bootstrap dapat digunakan melalui framework atau template yang sudah menyediakan integrasi Bootstrap, sehingga kita tidak perlu mengatur semuanya dari awal.
+3. Grid class dan breakpoint adalah dua konsep utama dalam responsive web design (seperti pada Bootstrap atau Tailwind CSS) yang digunakan untuk mengatur tata letak halaman web agar rapi di berbagai ukuran layar.
+
+Grid class adalah kumpulan class siap pakai yang berfungsi untuk membagi halaman web menjadi beberapa kolom (biasanya 12 kolom).
+•	Kegunaan: Mengatur posisi, lebar, dan penyelarasan elemen (konten) secara horizontal maupun vertikal. Dengan sistem grid, Anda bisa menentukan suatu konten harus memakan space berapa kolom dari total 12 kolom yang tersedia.
+Breakpoint adalah titik batas ukuran lebar layar (dalam satuan piksel) yang menentukan kapan tata letak (layout) web harus berubah atau menyesuaikan diri.
+•	Kegunaan: Menjadi acuan bagi grid class untuk mengubah jumlah kolom atau tampilan konten saat dibuka di perangkat yang berbeda (HP, tablet, laptop, hingga monitor besar).
+4. Class Bootstrap	Kegunaan
+container :	Membuat wadah untuk mengatur dan membatasi lebar konten halaman.
+row	: Membuat baris untuk mengatur tata letak kolom.
+col	: Membuat kolom dalam sistem grid Bootstrap.
+btn	: Membuat tampilan tombol
+Btn-primary	: Memberikan warna utama pada tombol
+text-center :	Membuat teks menjadi rata tengah.
+form-control :	Mengatur tampilan elemen input pada formulir.
+img-fluid	: Membuat gambar responsif agar menyesuaikan lebar wadahnya.
+5. Agar foto atau gambar pada website responsif dan dapat menyesuaikan ukuran layar perangkat, kita dapat menggunakan class img-fluid pada Bootstrap. Class img-fluid dapat membuat gambar memiliki lebar maksimal 100% dari wadahnya (max-width: 100%) dan tinggi otomatis (height: auto), sehingga gambar menyesuaikan ukuran layar tanpa mengubah proporsi aslinya.
+6. <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/f4e600cb-7033-437d-94f6-4b6f3a2c2ae8" />
+
 
